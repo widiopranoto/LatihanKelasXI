@@ -108,10 +108,10 @@ function writeLesson(lesson, title, instruction, level, mp3, pic1, pic2, pic3, p
     document.write(`<source src="` + level + `/audio/` + mp3 + `" type="audio/mpeg">`);
     document.write(`Your browser does not support the audio element.`);
     document.write(`</audio>`);
-    document.write(`<img src="` + level + `/image/` + pic1 + `" class="img-rounded">`);
-    document.write(`<img src="` + level + `/image/` + pic2 + `" class="img-rounded">`);
-    document.write(`<img src="` + level + `/image/` + pic3 + `" class="img-rounded">`);
-    document.write(`<img src="` + level + `/image/` + pic4 + `" class="img-rounded">`);
+    document.write(`<img src="` + level + `/image/` + pic1 + `" class="img-rounded" width="100%" height="100%">`);
+    document.write(`<img src="` + level + `/image/` + pic2 + `" class="img-rounded" width="100%" height="100%">`);
+    document.write(`<img src="` + level + `/image/` + pic3 + `" class="img-rounded" width="100%" height="100%">`);
+    document.write(`<img src="` + level + `/image/` + pic4 + `" class="img-rounded" width="100%" height="100%">`);
     document.write(`</div>`);
 }
 
